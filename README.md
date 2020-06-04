@@ -1,3 +1,5 @@
+Note: this is [SHFF's OpenGL Sky project](https://github.com/shff/opengl_sky) re-written using [XRhodes](https://github.com/zyndor/xrhodes).
+
 # OpenGL Sky
 
 This is a 100% procedural sky + clouds renderer. It calculates everything inside a shader.
@@ -89,9 +91,9 @@ Cirrus: https://upload.wikimedia.org/wikipedia/commons/9/94/Cirrus_clouds_mar08.
 
 ### Compiling
 
- - Install `glfw3` (`brew install glfw3` if you're on a Mac).
- - Edit `Makefile` and change the path to `glfw/includes` and `glfw/lib/libglfw3.a` (you can use `libglfw.dylib` here if you don't have `libglfw3.a`).
- - Run `make`. It should work.
+ - Install XRhodes from https://github.com/zyndor/xrhodes ;
+ - Run generate_projects.bat (Windows -- on other supported platforms, have a look at generate_projects.sh in xr3's tools/${your_platform}/ directory);
+ - Build the project generated in the .projects folder;
  
 I didn't put a lot of time into it, so 
 
